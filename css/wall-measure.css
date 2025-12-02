@@ -35,3 +35,41 @@ button {
   background-color: #eef;
   border: 1px solid #99c;
 }
+
+/* ▼ スマホ向けの調整 */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  canvas {
+    width: 100%;
+    height: auto;
+  }
+
+  .controls {
+    margin: 10px 0;
+  }
+
+  label {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+
+  button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 6px 0;
+  }
+
+  #result, #paintResult, #advice {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
