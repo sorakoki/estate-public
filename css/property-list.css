@@ -25,3 +25,22 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* ▼ メディアクエリ追加（スマホ向け） */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .property-card {
+    padding: 12px;
+    margin-bottom: 16px;
+    max-width: 100%;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
